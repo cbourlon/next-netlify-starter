@@ -3,7 +3,7 @@ import Link from 'next/link'
 import styles from '../Hero/Hero.module.scss'
 import Image from 'next/image'
 import cx from 'classnames';
-import { attributes, react as HomeContent } from '../../content/home.md';
+import { attributes } from '../../content/home.md';
 
 export default function Hero() {
 
@@ -16,16 +16,14 @@ export default function Hero() {
                         {/* <h1 className={styles.h1}>
                             {heroHeading}
                         </h1> */}
-                        <HomeContent />
+                        {/* <HomeContent /> */}
                         <img src="/images/home.svg" alt="Architecture végétale" className={styles.h1_logo} />
                         <p>
                             {heroSubHeading}
                         </p>
                     </div>
-
                 </div>
             </div>
-
         </>
     )
 }

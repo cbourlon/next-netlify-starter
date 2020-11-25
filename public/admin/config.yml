@@ -13,10 +13,14 @@ collections:
         fields:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Body", name: "body", widget: "markdown" }
           - { label: "heroHeading", name: "heroHeading", widget: "markdown" }
           - {
               label: "heroSubHeading",
               name: "heroSubHeading",
               widget: "markdown",
             }
+      - label: "Contact"
+        name: "contact"
+        file: "content/contact/index.md"
+        fields:
+          - { label: "Text", name: "text", widget: "string" }
