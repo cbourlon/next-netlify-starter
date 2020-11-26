@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Footer from '@components/Footer/Footer'
 import { attributes } from '../../content/contact/index.md';
-import styles from './contact.module.scss'
+// import styles from './contact.module.scss'
 import Hero from '@components/Hero/Hero';
 import Navigation from '@components/Navigation/Navigation'
 
