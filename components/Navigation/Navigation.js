@@ -14,7 +14,7 @@ export default function Navigation() {
                     <Link href="/">
                         <a aria-label="architecture végétale" className={styles.logo}>
                             <img className={styles.image} alt="Logo Architecture végétale"
-                                src="/images/logo-bandeau-menu.svg"
+                                src="/img/logo-bandeau-menu.svg"
                             />
                         </a>
                     </Link>

@@ -9,7 +9,7 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
         <>
             <div className={styles.hero}>
                 <Image
-                    src={bgImageSrc || `/images/home-1600.jpg`}
+                    src={bgImageSrc || `/img/home-1600.jpg`}
                     alt="illustration jardin"
                     layout='fill'
                 />
@@ -19,7 +19,7 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
                         {/* <HomeContent /> */}
                         {
                             isHomePage ?
-                                (<img src="/images/home.svg" alt="Architecture végétale" className={styles.h1_logo} />)
+                                (<img src="/img/home.svg" alt="Architecture végétale" className={styles.h1_logo} />)
                                 :
                                 (<h1 className={styles.h1}>
                                     {title}

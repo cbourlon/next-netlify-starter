@@ -5,5 +5,5 @@ layout: "vision"
 heroHeading: "Notre vision"
 heroSubHeading: "La promesse d’un projet qui vous ressemble"
 heroBackgroundClass: "hero-image--vision"
-heroBackground: "/images/vision-1600.jpg"
+heroBackground: "/img/vision-1600.jpg"
 ---
