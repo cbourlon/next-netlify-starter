@@ -1,6 +1,6 @@
 .navigation {
-  color: #faf3d3;
-  background-color: #44714a;
+  color: var(--cream);
+  background-color: var(--killarney);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,16 +58,16 @@
         font-weight: regular;
         text-transform: uppercase;
         text-decoration: none;
-        color: #62b16f;
+        color: var(--fern);
       }
     }
 
     .main_menu_list_item:hover {
       > a {
         transition: all 225ms ease-in 0s;
-        color: #62b16f;
+        color: var(--fern);
         text-decoration: none;
-        background: #faf3d3;
+        background: var(--cream);
       }
     }
   }

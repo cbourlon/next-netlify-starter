@@ -2,9 +2,12 @@
 // BASE STYLING
 // -------------------------------------------------- */
 
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 html {
   box-sizing: border-box;
   height: 100%;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -51,4 +54,10 @@ main {
 :root {
   font-size: 62.5%;
   /* --global-variable: "here"; */
+  --max-width-layout: 144rem;
+
+  /* --global-colors: "here"; */
+  --cream: #faf3d3;
+  --fern: #62b16f;
+  --killarney: #44714a;
 }

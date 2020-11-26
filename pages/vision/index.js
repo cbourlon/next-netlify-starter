@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Footer from '@components/Footer/Footer'
-import { attributes } from '../../content/contact/index.md';
-import styles from './contact.module.scss'
+import { attributes } from '../../content/vision/index.md';
+import styles from './vision.module.scss'
+import Hero from '@components/Hero/Hero';
 import Navigation from '@components/Navigation/Navigation'
 
-export default function Contact() {
+export default function Vision() {
 
-    let { text } = attributes;
+    let { heroHeading, heroSubHeading } = attributes;
     return (
         <div className="container">
             <Head>
@@ -15,10 +16,7 @@ export default function Contact() {
             </Head>
             <Navigation />
             <main>
-                {/* <ContactContent /> */}
-                <p className={styles.text}>
-                    {text}
-                </p>
+                <Hero isHomePage={false} title={heroHeading} text={heroSubHeading} />
             </main>
         </div>
     )

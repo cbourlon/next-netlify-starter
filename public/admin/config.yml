@@ -19,6 +19,7 @@ collections:
               name: "heroSubHeading",
               widget: "markdown",
             }
+            
       - label: "Contact"
         name: "contact"
         file: "content/contact/index.md"
@@ -35,5 +36,5 @@ collections:
             name: "menuLinks"
             widget: "list"
             fields:
-                - { label: "Lien (slug)", name: "slug", widget: "string"}
-                - { label: "Lien (menu)", name: "menuLink", widget: "string"}
+                - { label: "url", name: "slug", widget: "string"}
+                - { label: "menu", name: "menuLink", widget: "string"}
