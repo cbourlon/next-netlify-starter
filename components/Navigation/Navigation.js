@@ -26,7 +26,6 @@ export default function Navigation() {
                             {
                                 menuLinks.length !== 0 &&
                                 menuLinks.map(item => {
-                                    console.log('item', item)
                                     return (
                                         <li className={styles.main_menu_list_item} key={item.slug}>
                                             <Link href={`/${item.slug}`}>
