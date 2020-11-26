@@ -11,8 +11,8 @@ collections:
         name: "home"
         file: "content/home.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/img/home-1600.jpg" }
           - { label: "Title", name: "heroHeading", widget: "string" }
           - { label: "Chapeau", name: "heroSubHeading", widget: "markdown" }
             
@@ -40,7 +40,7 @@ collections:
         widget: list
         fields:
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/img/test-1600.jpg" }
           - { label: "Titre",name: "heroHeading", widget: "string" }
           - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
 
@@ -50,7 +50,7 @@ collections:
         widget: list
         fields:
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/img/test-1600.jpg" }
           - { label: "Titre",name: "heroHeading", widget: "string" }
           - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
 
@@ -60,7 +60,7 @@ collections:
         widget: list
         fields:
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/img/test-1600.jpg" }
           - { label: "Titre",name: "heroHeading", widget: "string" }
           - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
 
@@ -70,6 +70,6 @@ collections:
         widget: list
         fields:
           - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/img/test-1600.jpg" }
           - { label: "Titre",name: "heroHeading", widget: "string" }
           - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
