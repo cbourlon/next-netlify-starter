@@ -7,7 +7,7 @@ import Navigation from '@components/Navigation/Navigation'
 
 export default function Atouts() {
 
-    let { heroHeading, heroSubHeading } = attributes;
+    let { heroHeading, heroSubHeading, heroBackground } = attributes;
 
     return (
         <div className="container">
@@ -17,7 +17,7 @@ export default function Atouts() {
             </Head>
             <Navigation />
             <main>
-                <Hero isHomePage={false} title={heroHeading} text={heroSubHeading} />
+                <Hero isHomePage={false} title={heroHeading} text={heroSubHeading} bgImageSrc={heroBackground} />
 
             </main>
         </div>

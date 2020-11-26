@@ -7,8 +7,8 @@ import Navigation from '@components/Navigation/Navigation'
 
 export default function Prestations() {
 
-    let { heroHeading, heroSubHeading } = attributes;
-
+    let { heroHeading, heroSubHeading, heroBackground } = attributes;
+    console.log('heroBackground', heroBackground)
     return (
         <div className="container">
             <Head>
@@ -17,7 +17,7 @@ export default function Prestations() {
             </Head>
             <Navigation />
             <main>
-                <Hero isHomePage={false} title={heroHeading} text={heroSubHeading} />
+                <Hero isHomePage={false} title={heroHeading} text={heroSubHeading} bgImageSrc={heroBackground} />
             </main>
         </div>
     )

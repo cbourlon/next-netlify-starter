@@ -3,7 +3,7 @@ title: "Inspiration"
 draft: false
 heroHeading: "Inspiration"
 heroSubHeading: "Ce qui nous a inspiré"
-heroBackground: "/static/images/test3.jpg"
+heroBackground: "/images/inspiration-1600.jpg"
 heroBackgroundClass: "hero-image--inspiration"
 layout: "inspiration"
 ---

@@ -14,18 +14,13 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "heroHeading", name: "heroHeading", widget: "markdown" }
-          - {
-              label: "heroSubHeading",
-              name: "heroSubHeading",
-              widget: "markdown",
-            }
+          - { label: "heroSubHeading", name: "heroSubHeading", widget: "markdown" }
             
       - label: "Contact"
         name: "contact"
         file: "content/contact/index.md"
         fields:
           - { label: "Text", name: "text", widget: "string" }
-
 
       - label: "Menu"
         name: "menu"
@@ -38,3 +33,12 @@ collections:
             fields:
                 - { label: "url", name: "slug", widget: "string"}
                 - { label: "menu", name: "menuLink", widget: "string"}
+
+      - label: "Prestation"
+        name: "prestation"
+        file: "content/prestation/index.md"
+        widget: list
+        default: "/images/test-1600.jpg"
+        media_library:
+          config:
+            multiple: true

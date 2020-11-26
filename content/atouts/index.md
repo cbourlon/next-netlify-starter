@@ -6,4 +6,5 @@ heroHeading: "Atouts"
 heroSubHeading: "Chaque projet est unique"
 heroBackgroundClass: "hero-image--atouts"
 layout: "atouts"
+heroBackground: "/images/atouthome-1600.jpg"
 ---

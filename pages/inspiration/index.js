@@ -7,7 +7,7 @@ import Navigation from '@components/Navigation/Navigation'
 
 export default function Inspiration() {
 
-    let { heroHeading, heroSubHeading } = attributes;
+    let { heroHeading, heroSubHeading, heroBackground } = attributes;
     return (
         <div className="container">
             <Head>
@@ -16,7 +16,7 @@ export default function Inspiration() {
             </Head>
             <Navigation />
             <main>
-                <Hero isHomePage={false} title={heroHeading} text={heroSubHeading} />
+                <Hero isHomePage={false} title={heroHeading} text={heroSubHeading} bgImageSrc={heroBackground} />
             </main>
         </div>
     )

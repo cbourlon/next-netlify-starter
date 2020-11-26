@@ -4,13 +4,12 @@ import styles from '../Hero/Hero.module.scss'
 import Image from 'next/image'
 import cx from 'classnames';
 
-
-export default function Hero({ title, text, isHomePage }) {
+export default function Hero({ title, text, isHomePage, bgImageSrc }) {
     return (
         <>
             <div className={styles.hero}>
                 <Image
-                    src="/images/home-1600.jpg"
+                    src={bgImageSrc || `/images/home-1600.jpg`}
                     alt="illustration jardin"
                     layout='fill'
                 />
