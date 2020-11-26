@@ -43,6 +43,10 @@ img {
   max-width: 100%;
 }
 
+main {
+  /* max-width: 160rem; */
+}
+
 /*  Global CSS Variables */
 :root {
   font-size: 62.5%;
