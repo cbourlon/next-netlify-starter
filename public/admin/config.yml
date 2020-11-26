@@ -25,8 +25,8 @@ collections:
         fields:
           - { label: "Text", name: "text", widget: "string" }
       - label: "Liens Menu"
-          name: "Liens"
-          file: "content/menu/index.md"
-          widget: list
-          fields:
-            - { label: "Lien", name: "name", widget: "string"}
+        name: "Liens"
+        file: "content/menu/index.md"
+        widget: list
+        fields:
+          - { label: "Lien", name: "name", widget: "string"}
