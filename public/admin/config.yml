@@ -38,7 +38,11 @@ collections:
         name: "prestation"
         file: "content/prestation/index.md"
         widget: list
-        default: "/images/test-1600.jpg"
-        media_library:
-          config:
-            multiple: true
+        fields:
+          - label: "background image"
+            name: "bgImage"
+            widget: "image"
+            default: "/image/test-1600.jpg"
+            media_library:
+              config:
+                multiple: true
