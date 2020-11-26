@@ -26,11 +26,14 @@ collections:
           - { label: "Text", name: "text", widget: "string" }
 
 
-      - label: "Liens Menu"
+      - label: "Menu"
         name: "menu"
         file: "content/menu/index.md"
         widget: list
         fields:
-          - { label: "Lien (slug)", name: "slug", widget: "string"}
-          - { label: "Lien (menu)", name: "menuLink", widget: "string"}
-          - {label: "test links", name: "menuLinks", widget: "list"}
+          - label: "Liens menu"
+            name: "menuLinks"
+            widget: "list"
+            fields:
+                - { label: "Lien (slug)", name: "slug", widget: "string"}
+                - { label: "Lien (menu)", name: "menuLink", widget: "string"}
