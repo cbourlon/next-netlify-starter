@@ -34,12 +34,42 @@ collections:
                 - { label: "url", name: "slug", widget: "string"}
                 - { label: "menu", name: "menuLink", widget: "string"}
 
-      - label: "Prestation"
-        name: "prestation"
+      - label: "Prestations Hero"
+        name: "prestations"
         file: "content/prestations/index.md"
         widget: list
         fields:
           - { label: "Publish Date", name: "date", widget: "datetime" }
           - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
-          - { label: "Titre",name: "heroHeading", widget: "string", default: "/image/test-1600.jpg" }
-          - { label: "Chapeau",name: "heroSubHeading", widget: "markdown", default: "/image/test-1600.jpg" }
+          - { label: "Titre",name: "heroHeading", widget: "string" }
+          - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
+
+      - label: "Atouts Hero"
+        name: "atouts"
+        file: "content/atouts/index.md"
+        widget: list
+        fields:
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
+          - { label: "Titre",name: "heroHeading", widget: "string" }
+          - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
+
+      - label: "Inspiration Hero"
+        name: "inspiration"
+        file: "content/inspiration/index.md"
+        widget: list
+        fields:
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
+          - { label: "Titre",name: "heroHeading", widget: "string" }
+          - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
+
+      - label: "Vision Hero"
+        name: "vision"
+        file: "content/vision/index.md"
+        widget: list
+        fields:
+          - { label: "Publish Date", name: "date", widget: "datetime" }
+          - { label: "background image",name: "heroBackground", widget: "image", default: "/image/test-1600.jpg" }
+          - { label: "Titre",name: "heroHeading", widget: "string" }
+          - { label: "Chapeau",name: "heroSubHeading", widget: "markdown" }
