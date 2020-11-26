@@ -33,3 +33,4 @@ collections:
         fields:
           - { label: "Lien (slug)", name: "slug", widget: "string"}
           - { label: "Lien (menu)", name: "menuLink", widget: "string"}
+          - {label: "test links", name: "menuLinks", widget: "list"}
