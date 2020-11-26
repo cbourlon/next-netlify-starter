@@ -24,15 +24,9 @@ collections:
         file: "content/contact/index.md"
         fields:
           - { label: "Text", name: "text", widget: "string" }
-      # - label: "Contact"
-      #   name: "contact"
-      #   file: "content/contact/index.md"
-      #   fields:
-      #     - { label: "Text", name: "text", widget: "string" }
-      - label: 'Liens Menu'
+      - label: "Liens Menu"
           name: "Liens"
           file: "content/menu/index.md"
           widget: list
           fields:
             - { label: "Lien", name: "name", widget: "string"}
-            # - { label: "Description", name: "description", widget: "text"}
