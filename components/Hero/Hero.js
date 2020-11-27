@@ -25,7 +25,7 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
         hero: true,
         heroImgLoaded: imgIsVisible,
     });
-
+    console.log('bgImageSrc', bgImageSrc)
     return (
         <>
             <div className={heroClass}>
@@ -36,7 +36,6 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
                     onLoad={loaded}
                     objectFit
                 />
-                <img src="/img/home-1600.jpg" />
                 <div className={styles.container}>
                     <div className={styles.text}>
 
