@@ -30,7 +30,8 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
         <>
             <div className={heroClass}>
                 <Image
-                    src={bgImageSrc || `/img/home-1600.jpg`}
+                    // src={bgImageSrc || `/img/home-1600.jpg`}
+                    src="/img/home-1600.jpg"
                     alt="illustration jardin"
                     layout='fill'
                     onLoad={loaded}
