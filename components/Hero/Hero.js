@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Link from 'next/link'
 import styles from '../Hero/Hero.module.scss'
 import Image from 'next/image'
 import classNames from 'classnames/bind';
@@ -12,7 +11,6 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
     const [imgIsVisible, setImgIsVisible] = useState(false)
 
     const loaded = (e) => {
-        console.log('e', e)
         setImgIsLoaded(true)
     }
 
@@ -23,14 +21,10 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
 
     }, [imgIsLoaded])
 
-    console.log('cx', cx)
-    console.log('imgIsVisible', imgIsVisible)
     const heroClass = cx({
         hero: true,
         heroImgLoaded: imgIsVisible,
     });
-
-    console.log('heroClass', heroClass)
 
     return (
         <>
@@ -40,6 +34,7 @@ export default function Hero({ title, text, isHomePage, bgImageSrc }) {
                     alt="illustration jardin"
                     layout='fill'
                     onLoad={loaded}
+                    objectFit
                 />
                 <div className={styles.container}>
                     <div className={styles.text}>
